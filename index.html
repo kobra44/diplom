@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<div class="wrapper">
 		<header class="header">
             <div class="container">
             	<div class="container__header">
@@ -16,7 +17,9 @@
             			<a href="#" class="header__logo_link">
                     	<img src="img/Logo.png" alt="logo" class="logo"></a>
             		</div>
-            		<nav class="header__nav">
+            		<nav class="main-nav">
+            			<input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle"><span></span></label>
                         <ul class="header__list">
 	                        <li class="header__item">
 	                            <a href="#!" class="header__link">Home</a></li>
@@ -34,7 +37,7 @@
         </header>
         <main>
             <section class="house">
-                <div class="container">
+                
                 	<div class="house__item">
                     	<h1>Sell Your House Instantly</h1>
                     	<p>Simply tell us about your house and get a guaranteed cash offer within 24 hours</p>
@@ -45,7 +48,7 @@
 							</div>
                     	</form>
 	                    
-                    </div>
+
                 </div>
             </section>
             <section class="key-feature">
@@ -128,11 +131,11 @@
 			            	<div class="easy-list">
 								<div class="header-list"></div>
 								<ul class="list">
-									<li class="list-item">How many days will it take to sell?</li>
-									<li class="list-item">Do I have to open house for public inspection?</li>
-									<li class="list-item">Morbi leo risus</li>
-									<li class="list-item">Do I have to pay selling commission?</li>
-									<li class="list-item">Can I stay till my other house is ready?</li>
+									<li class="list-item none">How many days will it take to sell?</li>
+									<li class="list-item none">Do I have to open house for public inspection?</li>
+									<li class="list-item none">Morbi leo risus</li>
+									<li class="list-item none">Do I have to pay selling commission?</li>
+									<li class="list-item none">Can I stay till my other house is ready?</li>
 								</ul>
 							</div>
 							<div class="easy-list">
@@ -173,8 +176,25 @@
             	</div>
             	
             </section>
+            <section class="forms">
+            	<div class="container">
+	            	<div class="form-box">
+		            	<div class="form-house-details">
+							<p><span>Sell Your House Instantly</span></p>
+							<p>Simply tell us about your house and get a guaranteed  cash offer within 24 hours</p>
+							<form class="form-1">
+	                    		<input type="text" placeholder="Submit your house details">
+								<button class="btn stuff" type="submit">Get your offer</button>
+							</form>
+						</div>
+					</div>	
+				</div>
+            </section>
            
-        </main>       
-	
+        </main>
+        <footer class="footer">
+        	<p>Copyright &copy; 2017 Real Estate Company Template - All Rights Reserved.</p>
+        </footer>       
+	</div>
 </body>
 </html>
